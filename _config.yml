@@ -19,7 +19,7 @@ locale: "en-US"
 direction: # "ltr" (default), "rtl" # set the direction of the page
 title: "Cozy Gradient"
 title_separator: "-"
-subtitle: # site tagline that appears below site title in masthead
+subtitle: "Made with love <3" # site tagline that appears below site title in masthead
 name: "Ahmet Levent Zengin"
 description: "Mechanical Engineer, Maker, and Digital Artist."
 url: "https://cozygradient.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -115,7 +115,7 @@ analytics:
 author:
   name: "Ahmet Levent Zengin"
   avatar: "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am a Turkish Mechanical Engineer and I love making stuff. <3"
+  bio: "I am a Turkish Mechanical Engineer and I love making stuff."
   location: "Ankara/Turkey"
   # email: "ahmetleventzen@gmail.com"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag

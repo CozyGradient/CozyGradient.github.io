@@ -2,6 +2,13 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+/* Italicize both the top menu subtitle and the profile sidebar bio, and remove the bold styling */
+.site-subtitle,
+.author__bio {
+    font-style: italic;
+    font-weight: normal;
+}
+
 @charset "utf-8";
 
 /* 1. Import Poppins from Google Fonts */
