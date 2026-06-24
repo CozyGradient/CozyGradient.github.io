@@ -25,7 +25,7 @@ description: "A personal website to document my stuff!"
 url: "https://cozygradient.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "CozyGradient/CozyGradient.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser: "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: # true, false (default)
@@ -115,7 +115,7 @@ analytics:
 author:
   name: "Ahmet Levent Zengin"
   avatar: "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am a Mechanical Engineer and I love making stuff."
+  bio: "I am a Turkish Mechanical Engineer and I love making stuff. <3"
   location: "Ankara/Turkey"
   # email: "ahmetleventzen@gmail.com"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
@@ -148,6 +148,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-square-linkedin"
       url: "https://www.linkedin.com/in/aleventz/"
+    - label: "Email"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "mailto:ahmetleventzen@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-square-x-twitter"
       # url:

@@ -1,9 +1,53 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
-search: false
 ---
 
 @charset "utf-8";
 
+/* 1. Import Poppins from Google Fonts */
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap";
+
+/* 2. Override the foundational font stacks directly */
+/* This forces navigation menus, sidebars, and buttons to use Poppins */
+$sans-serif:
+    "Poppins",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Roboto",
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+$sans-serif-narrow:
+    "Poppins",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Roboto",
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+$serif: "Poppins", Georgia, Times, serif;
+
+/* 3. Re-assign the global theme properties to use the new stacks */
+$global-font-family: $sans-serif;
+$header-font-family: $sans-serif;
+$caption-font-family: $sans-serif;
+
+/* 4. Core theme imports */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* 5. Custom Overrides */
+.author__urls-wrapper li a i {
+    color: inherit !important;
+}
+
+/* Global catch-all wrapper to force form elements/buttons to inherit perfectly */
+body,
+input,
+select,
+textarea,
+button {
+    font-family: $global-font-family;
+}
