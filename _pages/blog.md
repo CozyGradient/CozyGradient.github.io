@@ -2,7 +2,7 @@
 layout: archive
 title: "Blog Posts"
 permalink: /blog/
-author_profile: false
+author_profile: true
 ---
 
 {% for post in site.posts %}
