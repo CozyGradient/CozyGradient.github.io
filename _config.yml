@@ -21,7 +21,7 @@ title: "Cozy Gradient"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Ahmet Levent Zengin"
-description: "A personal website to document my stuff!"
+description: "Mechanical Engineer, Maker, and Digital Artist."
 url: "https://cozygradient.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "CozyGradient/CozyGradient.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,8 +95,8 @@ facebook:
   username:
   app_id:
   publisher:
-og_image: # Open Graph/Twitter default site image
-og_image_alt: # Alt text for Open Graph/Twitter default site image
+og_image: "/assets/images/site-preview.png" # Open Graph/Twitter default site image
+og_image_alt: "3D Benchy Model inside of Laminar Flow CFD Model with streamlines and the Cozy Gradient Text and Logo on the bottom right." # Alt text for Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
