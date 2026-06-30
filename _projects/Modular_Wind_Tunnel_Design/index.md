@@ -414,6 +414,7 @@ While the transition to the standalone touchscreen interface successfully consol
 
 - **Lighting Control Issues:** The internal high-intensity LED strip control loop is currently non-functional via the touchscreen interface. To ensure adequate visibility during active flow visualization trials, the lighting circuit has been bridged to an "always-on" state when the system is powered.
 - **Tachometer Feedback Faults:** The telemetry data captured by the microcontroller from the fourth pin (tachometer signal) exhibits severe signal noise resulting in faulty and inconsistent RPM readings on the display dashboard.
+
 #### 5.3.2 Future Software Roadmap
 
 These unresolved features will be addressed in a subsequent iteration of the software bundle. Future debugging efforts will focus on implementing proper hardware interrupts for accurate pulse counting on the tachometer line and debugging the pulse-width modulation (PWM) or relay logic for the lighting subsystem. Resolving these issues will deliver a robust, fully integrated electronic package ready for seamless deployment and hand-off to future students.
@@ -440,6 +441,7 @@ The smoke generation mechanism relies on the thermal vaporization of a glycerin 
 
 - **Acrolein Exposure Mitigation:** Under prolonged heating or restricted flow conditions, the thermal decomposition of glycerin produces acrolein, a volatile compound that acts as a severe respiratory and throat irritant.
 - **Clogging Indicators and Maintenance:**  Acrolein concentration increases significantly if the machine is operated while clogged. Users must monitor the fluid state visually, as a distinct yellow discoloration of the fluid correlates directly with increased clogging and higher irritant production. If respiratory irritation becomes severe, the system must be shut down immediately. To clear the system, the contaminated fluid reservoir must be washed and allowed to dry completely, removing the degraded, yellowed mixture and replacing it with fresh, clear fluid.
+
 #### 6.1.3 System Startup and Experimental Integration
 
 To initialize the wind tunnel and begin qualitative flow visualization, follow these steps:
@@ -447,7 +449,8 @@ To initialize the wind tunnel and begin qualitative flow visualization, follow t
 1. **Electrical Power-Up:** Connect the main power supply unit to the system. Assuming all internal wiring harnesses are securely attached, the microcontroller interface will initialize immediately, granting the operator immediate control over the exhaust fan speed profiles and telemetry.
 2. **Mechanical Assembly:** Ensure the wind tunnel housing is fully assembled. The 3D-printed flow straighteners must be seated flush at the intake, the exhaust fan array secured at the outlet, and the selected aerodynamic smoke rake properly aligned and plugged into its mounting aperture.
 3. **Fluidic Coupling:** After making sure the reservoir of the Lensgo fog machine is full up to at least midway with clear fluid. Connect the black delivery tube from the machine to the external-facing port of the 3D-printed adapter plug. Once coupled, initiate the smoke machine to feed the plenum, allowing the rake to produce stable, parallel streamlines within the test section.
-### 6.2 Open-Source Sustainability and Obsolescence Defense
+
+## 6.2 Open-Source Sustainability and Obsolescence Defense
 
 ![](/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Various_Modular_Components.png)
 *Figure 6.2.a: Various Modular Components*
