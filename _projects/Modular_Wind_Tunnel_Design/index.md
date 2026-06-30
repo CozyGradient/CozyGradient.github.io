@@ -77,6 +77,7 @@ When diving into established aerodynamic literature to evaluate how small-scale 
 - **The Contraction Ratio Constraint:** The literature explicitly recommends an incredibly large contraction ratio (often up to 24:1 for high-performance low-speed testing) to drastically smooth out incoming airflow and minimize spatial velocity variations *(Barlow, Rae, & Pope, 3rd ed., p. 35, sec. 2.5).*
 - **The Desktop Reality & Space-Saving Pivot:** Incorporating a 24:1 contraction cone into a compact desktop footprint is entirely impractical, as the required intake nozzle would demand a massive physical volume. To maintain our core project constraint of portability and a small workspace footprint, we deliberately bypassed the contraction section entirely, opting for a 1:1 straight-duct architecture.
 - **The Honeycomb Compensation:** Because a 1:1 duct inherently loses the automatic flow-straightening and air-acceleration benefits of a narrowing funnel, the burden of eliminating swirl falls entirely on the intake grid. To compensate for the lack of contraction, we relied heavily on a 3D-printed honeycomb style straightener. According to subsonic design guidelines, maintaining a cell length-to-diameter ratio between 5 and 10 allows the honeycomb to strip out lateral turbulence and align the air paths effectively without choking the low-power consumer fan array *(Eckert, Mort, & Jope, 1976).*
+
 ### 1.5 The CFD Reality Pass & The Simulation Pivot
 
 #### 1.5.1 Computational Framework and Setup
