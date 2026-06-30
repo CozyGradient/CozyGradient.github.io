@@ -1,0 +1,181 @@
+<div class="custom-carousel">
+    <div class="carousel-viewport">
+        <div class="carousel-track">
+            {% for project in site.projects %}
+            <div class="carousel-slide">
+                <a href="{{ project.url | relative_url }}" class="slide-link">
+                    <div class="slide-image-container">
+                        {% if project.header.teaser %}
+                        <img
+                            src="{{ project.header.teaser | relative_url }}"
+                            alt="{{ project.title }}"
+                        />
+                        {% else %}
+                        <div class="slide-placeholder">No Image Available</div>
+                        {% endif %}
+                    </div>
+                    <div class="slide-caption">
+                        <h3>{{ project.title }}</h3>
+                        <p>
+                            {{ project.excerpt | strip_html | truncatewords: 15
+                            }}
+                        </p>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <button class="carousel-arrow prev-arrow" aria-label="Previous Slide">
+        &#10094;
+    </button>
+    <button class="carousel-arrow next-arrow" aria-label="Next Slide">
+        &#10095;
+    </button>
+</div>
+
+<style>
+    .custom-carousel {
+        position: relative;
+        width: 100%;
+        max-width: 800px;
+        margin: 2em auto;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        background: var(--background-color, #fff);
+    }
+    .carousel-viewport {
+        width: 100%;
+        overflow: hidden;
+    }
+    .carousel-track {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 100%;
+    }
+    .carousel-slide {
+        min-width: 100%;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .slide-link {
+        text-decoration: none !important;
+        display: block;
+        color: inherit !important;
+    }
+    .slide-image-container {
+        width: 100%;
+        height: 380px;
+        overflow: hidden;
+        background: #222;
+    }
+    .slide-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+    .slide-link:hover img {
+        transform: scale(1.03);
+    }
+    .slide-placeholder {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #666;
+    }
+    .slide-caption {
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.75);
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .slide-caption h3 {
+        margin: 0 0 5px 0 !important;
+        color: #fff !important;
+    }
+    .slide-caption p {
+        margin: 0 !important;
+        font-size: 0.9em;
+        opacity: 0.9;
+    }
+    .carousel-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 15px 12px;
+        cursor: pointer;
+        font-size: 18px;
+        z-index: 10;
+        border-radius: 0 4px 4px 0;
+        transition: background 0.2s;
+    }
+    .carousel-arrow:hover {
+        background: rgba(0, 0, 0, 0.8);
+    }
+    .prev-arrow {
+        left: 0;
+    }
+    .next-arrow {
+        right: 0;
+        border-radius: 4px 0 0 4px;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const track = document.querySelector(".carousel-track");
+        const slides = Array.from(document.querySelectorAll(".carousel-slide"));
+        const nextBtn = document.querySelector(".next-arrow");
+        const prevBtn = document.querySelector(".prev-arrow");
+
+        if (slides.length === 0) return;
+
+        let currentIndex = 0;
+        let autoSlideTimer;
+
+        function updateSlider() {
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            updateSlider();
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            updateSlider();
+        }
+
+        // Button Controls
+        nextBtn.addEventListener("click", () => {
+            nextSlide();
+            resetTimer();
+        });
+        prevBtn.addEventListener("click", () => {
+            prevSlide();
+            resetTimer();
+        });
+
+        // Auto Sliding Loop (Every 4 seconds)
+        function startTimer() {
+            autoSlideTimer = setInterval(nextSlide, 4000);
+        }
+        function resetTimer() {
+            clearInterval(autoSlideTimer);
+            startTimer();
+        }
+
+        startTimer();
+    });
+</script>
