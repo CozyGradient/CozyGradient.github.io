@@ -1,38 +1,20 @@
 ---
 layout: single
-title: "Innovating at the Intersection of Engineering & Art"
+title: "Homepage"
 permalink: /
 author_profile: true
 classes: wide
 ---
-
-Welcome! I am a multi-disciplinary creator focused on mechanical design, aerodynamic testing, and digital art. My work bridges the gap between physical hardware fabrication and creative visual expression.
-
 ---
+Hello, I’m Levent. I’m a mechanical engineer who loves making things. I’m big on industrial design, simulation, and renewable technology, and I’m driven by the goal of making a real, positive impact. This site is a collection of my engineering projects, experiments, and whatever other interesting ideas I’m currently digging into. Hope you find the work interesting.
 
-## 🚀 Featured Projects
-
-Move the slider or click on any card to dive deep into the full design documentations, CAD pipelines, and data analysis.
+## Featured Projects
+A look at what I’ve been building lately, this includes everything from hardware prototypes to simulations.
 
 {% include project-slider.html %}
 
----
-
-## 🛠️ Core Capabilities
-
-I love taking ideas completely from concept to functional reality. Here is a quick snapshot of the domains I play in:
-
-| Engineering & Hardware | Creative & Digital Art |
-| :--- | :--- |
-| **Rapid Prototyping:** Fused Deposition Modeling (FDM) & printer mechanics tuning. | **Digital Illustration:** Concept art, sketching, and stylized rendering pipelines. |
-| **Fluid Dynamics:** Wind tunnel design, water tank flow visualizers, and flow straighteners. | **3D Sculpting:** Hard-surface mechanical assets and organic character modeling. |
-| **Automation & Code:** Computer vision tracking loops using OpenCV and NumPy data arrays. | **Visual Media:** Experimental effects, lighting, and smoke/fluid photography integration. |
-
----
-
-### 📝 Recent Insights & Lab Notes
-
-When I am not actively machining parts or sketching out shapes, I write about my technical breakthroughs, project failures, and lessons learned. Check out my latest blog entries below:
+## Recent Work
+This is where I dump my thoughts. It’s a mix of technical deep-dives, project post-mortems, and the random experiments I’m playing with. Check out my latest entries below.
 
 <ul class="post-list">
   {% for post in site.posts limit:3 %}

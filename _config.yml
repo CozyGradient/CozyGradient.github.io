@@ -19,9 +19,9 @@ locale: "en-US"
 direction: # "ltr" (default), "rtl" # set the direction of the page
 title: "Cozy Gradient"
 title_separator: "-"
-subtitle: "Made with love <3" # site tagline that appears below site title in masthead
+subtitle: "Mechanical Engineering · Simulation · Design" # site tagline that appears below site title in masthead
 name: "Ahmet Levent Zengin"
-description: "Mechanical Engineer, Maker, and Digital Artist."
+description: "Mechanical engineer working at the intersection of fluid mechanics, simulation, and design."
 url: "https://cozygradient.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "CozyGradient/CozyGradient.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

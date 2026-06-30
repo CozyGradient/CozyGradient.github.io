@@ -13,8 +13,8 @@ main:
 
   # My Actual Layout
 
-  - title: "home"
-    url: /
+  #  - title: "home"
+  #    url: /
   - title: "projects"
     url: /projects/
   - title: "about"
