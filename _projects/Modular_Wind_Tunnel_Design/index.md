@@ -450,7 +450,7 @@ To initialize the wind tunnel and begin qualitative flow visualization, follow t
 2. **Mechanical Assembly:** Ensure the wind tunnel housing is fully assembled. The 3D-printed flow straighteners must be seated flush at the intake, the exhaust fan array secured at the outlet, and the selected aerodynamic smoke rake properly aligned and plugged into its mounting aperture.
 3. **Fluidic Coupling:** After making sure the reservoir of the Lensgo fog machine is full up to at least midway with clear fluid. Connect the black delivery tube from the machine to the external-facing port of the 3D-printed adapter plug. Once coupled, initiate the smoke machine to feed the plenum, allowing the rake to produce stable, parallel streamlines within the test section.
 
-## 6.2 Open-Source Sustainability and Obsolescence Defense
+### 6.2 Open-Source Sustainability and Obsolescence Defense
 
 ![](/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Various_Modular_Components.png)
 *Figure 6.2.a: Various Modular Components*
@@ -474,7 +474,6 @@ Future student engineering teams looking to advance this platform should priorit
 
 
 ## 7. File Repository
----
 
 | Asset Description                 | Target Deployment Component   | File Reference                                           | Status     |
 | :-------------------------------- | :---------------------------- | :------------------------------------------------------- | :--------- |
