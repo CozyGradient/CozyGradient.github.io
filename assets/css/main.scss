@@ -2,20 +2,17 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-/* Italicize both the top menu subtitle and the profile sidebar bio, and remove the bold styling */
+@charset "utf-8";
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap";
+
 .site-subtitle,
 .author__bio {
     font-style: italic;
     font-weight: normal;
 }
 
-@charset "utf-8";
+/* Italicize both the top menu subtitle and the profile sidebar bio, and remove the bold styling */
 
-/* 1. Import Poppins from Google Fonts */
-@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap";
-
-/* 2. Override the foundational font stacks directly */
-/* This forces navigation menus, sidebars, and buttons to use Poppins */
 $sans-serif:
     "Poppins",
     -apple-system,
@@ -36,25 +33,82 @@ $sans-serif-narrow:
     sans-serif;
 $serif: "Poppins", Georgia, Times, serif;
 
-/* 3. Re-assign the global theme properties to use the new stacks */
 $global-font-family: $sans-serif;
 $header-font-family: $sans-serif;
 $caption-font-family: $sans-serif;
 
-/* 4. Core theme imports */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes";
 
-/* 5. Custom Overrides */
 .author__urls-wrapper li a i {
     color: inherit !important;
 }
 
-/* Global catch-all wrapper to force form elements/buttons to inherit perfectly */
+.page__content p,
+.page__content li {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+}
+
+.toc li,
+.toc li a {
+    text-align: left;
+}
+
 body,
 input,
 select,
 textarea,
 button {
     font-family: $global-font-family;
+}
+
+/* ==========================================================================
+   Custom Project Cards Styling
+   ========================================================================== */
+
+/* Transform catalog entries into neat, isolated cards */
+.archive__item {
+    border: 1px solid $border-color; /* Uses your theme's native border color */
+    padding: 24px;
+    border-radius: 8px;
+    background-color: $background-color; /* Keeps background cohesive with your active skin */
+    margin-bottom: 28px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03); /* Adds a very soft depth */
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
+    /* Adds a premium tactile lift when hovering over a project card */
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+}
+
+/* Round off the project teaser images to complement the card corners */
+.archive__item-teaser img {
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+/* Force perfect text justification exclusively on the project descriptions */
+.archive__item-excerpt {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    margin-bottom: 0; /* Cleans up accidental trailing spaces inside the card */
+}
+
+/* Override the theme's default narrow grid to make project cards wider */
+.entries-grid .grid__item {
+    width: 100%; /* Default to full width on mobile */
+}
+
+/* On desktop, force a spacious 2-column layout instead of 4 */
+@media (min-width: 768px) {
+    .entries-grid .grid__item {
+        width: 30%; /* Change this to 100% if you want one massive, full-width card per row */
+    }
 }

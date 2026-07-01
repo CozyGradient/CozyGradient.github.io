@@ -49,6 +49,7 @@ To ensure project delivery and keep the development focused, strict engineering 
 ### 1.1 The Lack of Functional Equipment
 
 For most mechanical engineering students, exposure to high-quality visuals of fluid mechanics phenomena is typically limited to pictures in textbooks, lecture slides, or online videos. This was exactly the case at Başkent University. While the university possessed a small wind tunnel, it was completely non-functional. This lack of equipment was highly unfortunate, because developing my own wind tunnel later revealed a vast world of fluid flow interactions that are completely invisible to the naked eye, yet incredibly valuable for physical observation and deep engineering understanding.
+
 ### 1.2 Insights from The THK Lab Tour
 
 <figure>
@@ -113,6 +114,7 @@ The numerical analysis provided clear data regarding the boundary layer developm
 These insights defined the simulation pivot. A turbulence intensity around 1.5% is too high for high-precision quantitative aerodynamic testing or numerical sensor logging. However, it is entirely stable and effective for flow visualization and qualitative wake studies.
 
 Rather than chasing complex, space-consuming geometric additions to force the turbulence intensity below 1%, these results validated the choice to maintain a compact 1:1 straight layout. The simulation proved that the 3D-printed honeycomb straightener alone is sufficient to deliver the stable, parallel flow required to capture clean smoke trails.
+
 ### 1.6 Project Milestone Timeline
 
 <style>
@@ -368,6 +370,7 @@ The smoke injection rake underwent an iterative design process to correct intern
 - **Plenum and Aerodynamic Integration:** To equalize pressure across all five exit points, a distribution plenum was integrated into the design. To minimize wake disruption upstream of the test area, the outer geometry of the rake was modeled as a aerodynamic NACA-0018 airfoil profile.
 - **Structural Stabilization:** The first aerodynamic prototype suffered from physical imbalance and sagging because the entry tube was placed too close to the leading edge of the airfoil. To correct this, the mounting aperture was relocated to align with the component's center of mass from above. The vertical length of the rake was also extended so its base rested flush against the floor of the wind tunnel, replacing the unstable cantilevered mount.
 - **Alternative Cross-Sections:** Additional cylindrical rakes were fabricated to serve as alternative testing assets. These allowed for the qualitative visualization of potential flow characteristics and stagnation points over a standard circular cross-section.
+
 #### 4.2.2 Pressure Screen Implementation and Relocation
 
 <figure>
@@ -381,6 +384,7 @@ A fine-mesh pressure screen was introduced to manage tunnel velocity and optimiz
 
 - **Velocity Suppression:** The baseline speed of the exhaust fan array at its lowest operational threshold (5% PWM duty cycle) was too high to maintain completely stable laminar streamlines. The pressure screen was introduced to create a targeted static pressure drop, effectively slowing the core flow down to an ideal velocity for flow visualization.
 - **Optimal Placement:** The screen was originally positioned immediately upstream of the exhaust fan array. However, empirical testing showed that relocating the screen to the tunnel entrance, directly ahead of the 3D-printed flow straighteners, provided superior flow conditioning. The small cell diameter of the mesh acted as an effective primary stage for removing large-scale fluid disturbances before the air entered the honeycomb lattice.
+
 ### 4.3 Improved Presentation
 
 <figure>
@@ -454,6 +458,7 @@ The software architecture was rebuilt to take advantage of the color touchscreen
 
 - **Integrated Component Control:** The new user interface layout featured dedicated digital sliders and toggles to dynamically regulate the fan speed duty cycles and manage power to the high-intensity internal LED strip.
 - **Telemetry Data Logging:** The control loop was designed to utilize the fourth pin (tachometer signal) of the exhaust fan array. This allowed the ESP32 to capture real-time RPM feedback from the motors, displaying active hardware telemetry alongside the control sliders.
+
 ### 5.3 Disclosures on Current Work-in-Progress
 
 <figure>
@@ -482,7 +487,7 @@ These unresolved features will be addressed in a subsequent iteration of the sof
 
 To prevent equipment damage and ensure user safety, operation of the Lensgo portable fog machine must adhere to strict runtime and handling constraints:
 
-> ### <i class="fas fa-exclamation-triangle"></i> WARNING: THERMAL BURN HAZARD
+> <i class="fas fa-exclamation-triangle"></i> WARNING: THERMAL BURN HAZARD
 > 
 > *Residual fluid discharging from the device between operational cycles reaches extreme temperatures. Operators must exercise strict caution, as direct contact with this high-temperature effluent can cause severe thermal burns. Furthermore, the metal nozzle assembly retains intense heat long after the machine is deactivated. Do not touch or handle the metal nozzle or drainage paths until the system has completely cooled to ambient temperature.*
 {: .notice--danger}
@@ -521,9 +526,11 @@ To initialize the wind tunnel and begin qualitative flow visualization, follow t
 This project is engineered with a strict emphasis on adaptability and long-term modularity. Complete technical drawings, geometric dimensions, source code, and wiring schematics for every custom component are appended to this document. This open design framework ensures that if a specific hardware component becomes unavailable, undergoes manufacturer discontinuation, or suffers mechanical failure, future developers can easily adapt new hardware to interface with the existing system.
 
 For example, if the commercial Lensgo portable fog machine fails or is phased out of production, the 3D-printed intake adapter plug can be easily remodeled or swapped out to accommodate the pneumatic tubing of a completely different aerosol generation device without requiring alterations to the primary tunnel housing.
+
 #### 6.2.2 Version Control and Document Evolution
 
 Continuous iterative development is highly encouraged. The architecture of this wind tunnel is intended to serve as an evolving platform rather than a static finalized product. If modifications are made to the mechanical components, electrical control loops, or software repositories, subsequent developers are strongly urged to amend this documentation. Keeping the master file up to date, or documenting experimental insights within their respective repository forks, preserves institutional knowledge and ensures the system remains highly functional for future engineering students.
+
 ### 6.3 Future Development Roadmap
 
 Future student engineering teams looking to advance this platform should prioritize the following critical system upgrades:
