@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name: "Ahmet Levent Zengin"
-  avatar: "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "I am a Turkish Mechanical Engineer and I love making stuff."
   location: "Ankara/Turkey"
   # email: "ahmetleventzen@gmail.com"
