@@ -4,9 +4,13 @@ title: "Resume"
 permalink: /resume/
 author_profile: false
 ---
-
 <div style="text-align: center; margin-bottom: 2em;">
   <img src="/assets/images/bio-photo.png" alt="Ahmet Levent Zengin" style="width: 180px; height: 180px; border-radius: 50%; border: 3px solid #3b5998; margin-bottom: 1em;">
+  <h2 style="margin-bottom: 0.2em;">Ahmet Levent Zengin</h2>
+  <div style="display: flex; flex-direction: column; gap: 5px; color: #666;">
+    <span><i class="fas fa-envelope"></i> ahmetleventzen@gmail.com</span>
+    <span><a href="https://www.linkedin.com/in/aleventz/" style="text-decoration: none; color: #3b5998;"><i class="fab fa-linkedin"></i> linkedin.com/in/aleventz</a></span>
+  </div>
 </div>
 
 ## Profile
