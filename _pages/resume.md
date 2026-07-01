@@ -2,7 +2,7 @@
 layout: single
 title: "Resume"
 permalink: /resume/
-author_profile: true
+author_profile: false
 ---
 
 You can download my resume in your preferred format below:
