@@ -52,18 +52,27 @@ For most mechanical engineering students, exposure to high-quality visuals of fl
 ### 1.2 Insights from The THK Lab Tour
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_THK_University.png" alt="THK University wind tunnel and fluids laboratory visit"/><figcaption>Visiting the THK University wind tunnel and fluids laboratory.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_THK_University.png" class="image-popup" title="THK University wind tunnel and fluids laboratory visit">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_THK_University.png" alt="THK University wind tunnel and fluids laboratory visit"/>
+    </a>
+    <figcaption>Visiting the THK University wind tunnel and fluids laboratory.</figcaption>
 </figure>
 
 Under the guidance of our project advisor, Asst. Prof. Dr. Erhan Solakoğlu, we visited the wind tunnel and fluids laboratory of Asst. Prof. Dr. Ali Ruhşen Çete. During this visit, we observed several intriguing wind tunnel configurations. One particular 2D wind tunnel design stood out, featuring clear acrylic panels bolted directly to aluminum extrusions. Its airflow was driven by standard desktop PC fans arranged in a 1x4 rectangular array. This specific configuration, with a few minor modifications, became our chosen baseline design moving forward.
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_THK_WindTunnelDesign.png" alt="THK University wind tunnel design that inspired this project"/><figcaption>The THK University wind tunnel design that served as the inspiration for this project's components.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_THK_WindTunnelDesign.png" class="image-popup" title="THK University wind tunnel design that inspired this project">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_THK_WindTunnelDesign.png" alt="THK University wind tunnel design that inspired this project"/>
+    </a>
+    <figcaption>The THK University wind tunnel design that served as the inspiration for this project's components.</figcaption>
 </figure>
 ### 1.3 Academic Literature Benchmarks & Design Trade-Offs
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Main_Sources.png" alt="Main academic sources reviewed for the wind tunnel design"/><figcaption>Main sources reviewed: (a) Eckert, Mort, & Jope, 1976, (b) Barlow, Rae, & Pope, 3rd ed.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Main_Sources.png" class="image-popup" title="Main academic sources reviewed for the wind tunnel design">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Main_Sources.png" alt="Main academic sources reviewed for the wind tunnel design"/>
+    </a>
+    <figcaption>Main sources reviewed: (a) Eckert, Mort, & Jope, 1976, (b) Barlow, Rae, & Pope, 3rd ed.</figcaption>
 </figure>
 
 When diving into established aerodynamic literature to evaluate how small-scale or open-source wind tunnels are traditionally designed, several geometric parameters emerge:
@@ -77,7 +86,10 @@ When diving into established aerodynamic literature to evaluate how small-scale 
 #### 1.5.1 Computational Framework and Setup
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_CFD_Preparation.png" alt="CFD boundary conditions, mesh, and control volume setup"/><figcaption>CFD boundary conditions, mesh, and control volume.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_CFD_Preparation.png" class="image-popup" title="CFD boundary conditions, mesh, and control volume setup">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_CFD_Preparation.png" alt="CFD boundary conditions, mesh, and control volume setup"/>
+    </a>
+    <figcaption>CFD boundary conditions, mesh, and control volume.</figcaption>
 </figure>
 
 To validate the aerodynamic behavior within the straight-duct configuration, a steady-state Computational Fluid Dynamics (CFD) simulation was conducted. The computational domain utilized a Reynolds-Averaged Navier-Stokes (RANS) $k-\omega$ SST turbulence model. This specific model choice was justified because the operational velocity of 1 m/s yields a turbulent Reynolds number of approximately 18,500.
@@ -87,7 +99,10 @@ To account for the 3D-printed honeycomb flow straightener at the intake without 
 #### 1.5.2 Simulation Takeaways and Scope Validation
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_CFD_Result.gif" alt="Animated CFD simulation showing high turbulence regions"/><figcaption>High turbulence regions visualized through Nu_T.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_CFD_Result.gif" class="image-popup" title="Animated CFD simulation showing high turbulence regions">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_CFD_Result.gif" alt="Animated CFD simulation showing high turbulence regions"/>
+    </a>
+    <figcaption>High turbulence regions visualized through Nu_T.</figcaption>
 </figure>
 
 The numerical analysis provided clear data regarding the boundary layer development and the internal turbulence behavior, which directly guided the final scope of the project:
@@ -259,7 +274,10 @@ The initial architecture of the wind tunnel was dictated by the square cross sec
 ### 2.2 The Micro-Scale Proof of Concept
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_MicroScale_Prototype.png" alt="Microscale wind tunnel prototype with a 40mm fan and test geometries"/><figcaption>Microscale prototype with test geometries and a 40mm fan.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_MicroScale_Prototype.png" class="image-popup" title="Microscale wind tunnel prototype with a 40mm fan and test geometries">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_MicroScale_Prototype.png" alt="Microscale wind tunnel prototype with a 40mm fan and test geometries"/>
+    </a>
+    <figcaption>Microscale prototype with test geometries and a 40mm fan.</figcaption>
 </figure>
 
 To validate the core system architecture prior to full-scale fabrication, a compact prototype was produced using 3D printing. This  model scaled the cross-sectional testing domain down from the final 280 mm × 280 mm dimensions to a localized 40 mm × 40 mm framework. The deployment of this small-scale iteration served two primary objectives:
@@ -286,7 +304,10 @@ The structural seams were joined using chloroform as a solvent-welding agent, ap
 #### 3.1.3 Curing and Structural Integrity
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Solvent_Welded_Seam.png" alt="Cured solvent-welded acrylic seam"/><figcaption>A cured, solvent-welded seam.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Solvent_Welded_Seam.png" class="image-popup" title="Cured solvent-welded acrylic seam">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Solvent_Welded_Seam.png" alt="Cured solvent-welded acrylic seam"/>
+    </a>
+    <figcaption>A cured, solvent-welded seam.</figcaption>
 </figure>
 
 Once the solvent was successfully distributed along the seams, the fixtured assembly remained at the workshop overnight. This uninterrupted layout allowed for complete solvent evaporation and bonding across the joint interfaces. This curing period yielded a highly rigid, transparent, and sealed weld capable of maintaining the internal flow pressures.
@@ -296,7 +317,10 @@ Once the solvent was successfully distributed along the seams, the fixtured asse
 #### 3.2.1 Manufacturing Choice
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Honeycomb_Straightener.png" alt="3D-printed honeycomb pattern flow straightener"/><figcaption>The honeycomb pattern flow straightener.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Honeycomb_Straightener.png" class="image-popup" title="3D-printed honeycomb pattern flow straightener">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Honeycomb_Straightener.png" alt="3D-printed honeycomb pattern flow straightener"/>
+    </a>
+    <figcaption>The honeycomb pattern flow straightener.</figcaption>
 </figure>
 
 To meet tight project deadlines, the slicing software's native infill was used as a direct substitute for a separately modeled honeycomb component. This approach eliminated the design overhead of modeling thousands of individual cells manually.
@@ -312,7 +336,10 @@ The component was printed at a fine layer resolution to minimize surface roughne
 ## 4. Modular Subsystems & Visual Optimization
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Wind_Tunnel_Overview.png" alt="Overview of the complete modular wind tunnel design"/><figcaption>Overview of the wind tunnel design.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Wind_Tunnel_Overview.png" class="image-popup" title="Overview of the complete modular wind tunnel design">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Wind_Tunnel_Overview.png" alt="Overview of the complete modular wind tunnel design"/>
+    </a>
+    <figcaption>Overview of the wind tunnel design.</figcaption>
 </figure>
 
 ### 4.1 The Lensgo Smoke Injection System
@@ -329,7 +356,10 @@ The system generates dense smoke trails by vaporizing a liquid fluid mixture con
 #### 4.2.1 Smoke Rake Design Evolution
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Smoke_Rake_Design_Iteration.png" alt="Smoke rake design iterations from prototype to final version"/><figcaption>Smoke rake design iterations.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Smoke_Rake_Design_Iteration.png" class="image-popup" title="Smoke rake design iterations from prototype to final version">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Smoke_Rake_Design_Iteration.png" alt="Smoke rake design iterations from prototype to final version"/>
+    </a>
+    <figcaption>Smoke rake design iterations.</figcaption>
 </figure>
 
 The smoke injection rake underwent an iterative design process to correct internal pressure imbalances and minimize aerodynamic interference within the test section:
@@ -341,7 +371,10 @@ The smoke injection rake underwent an iterative design process to correct intern
 #### 4.2.2 Pressure Screen Implementation and Relocation
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Pressure_Screen.png" alt="Fine-mesh pressure screen compared to the honeycomb straightener"/><figcaption>The fine-mesh pressure screen, which has a much finer mesh than the honeycomb straighteners.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Pressure_Screen.png" class="image-popup" title="Fine-mesh pressure screen compared to the honeycomb straightener">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Pressure_Screen.png" alt="Fine-mesh pressure screen compared to the honeycomb straightener"/>
+    </a>
+    <figcaption>The fine-mesh pressure screen, which has a much finer mesh than the honeycomb straighteners.</figcaption>
 </figure>
 
 A fine-mesh pressure screen was introduced to manage tunnel velocity and optimize flow alignment:
@@ -351,7 +384,10 @@ A fine-mesh pressure screen was introduced to manage tunnel velocity and optimiz
 ### 4.3 Improved Presentation
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Improved_Visuals.png" alt="Improved smoke visualization from a black backdrop and LED lighting"/><figcaption>Improved presentation due to the black backdrop and LED lighting.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Improved_Visuals.png" class="image-popup" title="Improved smoke visualization from a black backdrop and LED lighting">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Improved_Visuals.png" alt="Improved smoke visualization from a black backdrop and LED lighting"/>
+    </a>
+    <figcaption>Improved presentation due to the black backdrop and LED lighting.</figcaption>
 </figure>
 #### 4.3.1 Contrast Enhancement
 
@@ -378,7 +414,10 @@ However, this unthrottled operational baseline proved unviable for testing. The 
 #### 5.1.2 Phase 2: ESP32 Microcontroller Integration and Web UI
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Initial_Circuit_Diagram.png" alt="Initial circuit diagram for the ESP32 control electronics"/><figcaption>The initial circuit diagram.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Initial_Circuit_Diagram.png" class="image-popup" title="Initial circuit diagram for the ESP32 control electronics">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Initial_Circuit_Diagram.png" alt="Initial circuit diagram for the ESP32 control electronics"/>
+    </a>
+    <figcaption>The initial circuit diagram.</figcaption>
 </figure>
 
 To lower the flow velocity to an acceptable level for qualitative flow visualization, an ESP32 microcontroller was integrated into the system architecture. This setup allowed for the following software and control implementations:
@@ -390,13 +429,19 @@ To lower the flow velocity to an acceptable level for qualitative flow visualiza
 This digital control loop provided the stable, low-speed environment necessary to conduct the subsequent developmental iterations on the NACA-0018 smoke rakes and the 3D-printed flow straighteners.
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_WebUI.png" alt="Asynchronous web interface for controlling fan speed"/><figcaption>The asynchronous web interface.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_WebUI.png" class="image-popup" title="Asynchronous web interface for controlling fan speed">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_WebUI.png" alt="Asynchronous web interface for controlling fan speed"/>
+    </a>
+    <figcaption>The asynchronous web interface.</figcaption>
 </figure>
 
 ### 5.2 Phase 3: The Standalone Touchscreen Interface
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Sketch_to_Real_Life.png" alt="Touchscreen interface design, from initial sketch to final build"/><figcaption>(a) Initial sketches of the touchscreen interface, (b) the final design.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Sketch_to_Real_Life.png" class="image-popup" title="Touchscreen interface design, from initial sketch to final build">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Sketch_to_Real_Life.png" alt="Touchscreen interface design, from initial sketch to final build"/>
+    </a>
+    <figcaption>(a) Initial sketches of the touchscreen interface, (b) the final design.</figcaption>
 </figure>
 
 #### 5.2.1 UI Redesign Rationalization
@@ -412,7 +457,10 @@ The software architecture was rebuilt to take advantage of the color touchscreen
 ### 5.3 Disclosures on Current Work-in-Progress
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_New_Case_TopView.png" alt="Top view of the new electronics case with the touchscreen module"/><figcaption>Top view of the new case. LED pins are not yet connected to the CYD due to a software issue.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_New_Case_TopView.png" class="image-popup" title="Top view of the new electronics case with the touchscreen module">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_New_Case_TopView.png" alt="Top view of the new electronics case with the touchscreen module"/>
+    </a>
+    <figcaption>Top view of the new case. LED pins are not yet connected to the CYD due to a software issue.</figcaption>
 </figure>
 
 #### 5.3.1 Technical Limitations and Current System State
@@ -434,7 +482,7 @@ These unresolved features will be addressed in a subsequent iteration of the sof
 
 To prevent equipment damage and ensure user safety, operation of the Lensgo portable fog machine must adhere to strict runtime and handling constraints:
 
-> ***WARNING: THERMAL BURN HAZARD***
+> ### <i class="fas fa-exclamation-triangle"></i> WARNING: THERMAL BURN HAZARD
 > 
 > *Residual fluid discharging from the device between operational cycles reaches extreme temperatures. Operators must exercise strict caution, as direct contact with this high-temperature effluent can cause severe thermal burns. Furthermore, the metal nozzle assembly retains intense heat long after the machine is deactivated. Do not touch or handle the metal nozzle or drainage paths until the system has completely cooled to ambient temperature.*
 {: .notice--danger}
@@ -449,7 +497,7 @@ To prevent equipment damage and ensure user safety, operation of the Lensgo port
 The smoke generation mechanism relies on the thermal vaporization of a glycerin and propylene glycol mixture. This process introduces specific biochemical considerations:
 
 - **Acrolein Exposure Mitigation:** Under prolonged heating or restricted flow conditions, the thermal decomposition of glycerin produces acrolein, a volatile compound that acts as a severe respiratory and throat irritant.
-- **Clogging Indicators and Maintenance:**  Acrolein concentration increases significantly if the machine is operated while clogged. Users must monitor the fluid state visually, as a distinct yellow discoloration of the fluid correlates directly with increased clogging and higher irritant production. If respiratory irritation becomes severe, the system must be shut down immediately. To clear the system, the contaminated fluid reservoir must be washed and allowed to dry completely, removing the degraded, yellowed mixture and replacing it with fresh, clear fluid.
+- **Clogging Indicators and Maintenance:** Acrolein concentration increases significantly if the machine is operated while clogged. Users must monitor the fluid state visually, as a distinct yellow discoloration of the fluid correlates directly with increased clogging and higher irritant production. If respiratory irritation becomes severe, the system must be shut down immediately. To clear the system, the contaminated fluid reservoir must be washed and allowed to dry completely, removing the degraded, yellowed mixture and replacing it with fresh, clear fluid.
 
 #### 6.1.3 System Startup and Experimental Integration
 
@@ -462,7 +510,10 @@ To initialize the wind tunnel and begin qualitative flow visualization, follow t
 ### 6.2 Open-Source Sustainability and Obsolescence Defense
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Various_Modular_Components.png" alt="Various modular components used throughout the wind tunnel"/><figcaption>Various modular components.</figcaption>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Various_Modular_Components.png" class="image-popup" title="Various modular components used throughout the wind tunnel">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1200x900_Various_Modular_Components.png" alt="Various modular components used throughout the wind tunnel"/>
+    </a>
+    <figcaption>Various modular components.</figcaption>
 </figure>
 
 #### 6.2.1 Modular Architecture and Component Substitution
@@ -487,7 +538,7 @@ Future student engineering teams looking to advance this platform should priorit
 
 | Asset Description                 | Target Deployment Component   | File Reference                                                                                    | Status     |
 | :-------------------------------- | :---------------------------- | :------------------------------------------------------------------------------------------------ | :--------- |
-| **Complete Wind Tunnel Assembly** | Full Mechanical CAD Chassis   | <a href="/_projects/Modular_Wind_Tunnel_Design/assetsmachine_assembly.step" class="btn btn--info btn--small" download>Download STEP</a> | **Active** |
-| **Iterated Smoke Rakes & Plugs** | Modular Flow Accessories      | <a href="/_projects/Modular_Wind_Tunnel_Design/assetssmoke_rake_components.step" class="btn btn--info btn--small" download>Download STEP</a> | **Active** |
-| **Touchscreen Display Console** | Control Electronics Housing   | <a href="/_projects/Modular_Wind_Tunnel_Design/assetsui_chassis_box.step" class="btn btn--info btn--small" download>Download STEP</a>   | **Active** |
-| **ESP32 Touch Deck Firmware** | System Source Control Code    | <a href="/_projects/Modular_Wind_Tunnel_Design/assetsesp32_control_firmware.ino" class="btn btn--success btn--small" download>Download Source</a> | **Active** |
+| **Complete Wind Tunnel Assembly** | Full Mechanical CAD Chassis   | <a href="/_projects/Modular_Wind_Tunnel_Design/assets/machine_assembly.step" class="btn btn--info btn--small" download>Download STEP</a> | **Active** |
+| **Iterated Smoke Rakes & Plugs** | Modular Flow Accessories      | <a href="/_projects/Modular_Wind_Tunnel_Design/assets/smoke_rake_components.step" class="btn btn--info btn--small" download>Download STEP</a> | **Active** |
+| **Touchscreen Display Console** | Control Electronics Housing   | <a href="/_projects/Modular_Wind_Tunnel_Design/assets/ui_chassis_box.step" class="btn btn--info btn--small" download>Download STEP</a>   | **Active** |
+| **ESP32 Touch Deck Firmware** | System Source Control Code    | <a href="/_projects/Modular_Wind_Tunnel_Design/assets/esp32_control_firmware.ino" class="btn btn--success btn--small" download>Download Source</a> | **Active** |

@@ -39,7 +39,9 @@ This machine is a wind tunnel, meaning it produces a torrent of wind inside a cl
 This machine lets you see wake behaviors and stagnation points in flow regions, meaning the downwind parts of the flow that don't seem to be going anywhere. In real life this causes issues like drag, which reduces fuel efficiency in cars and aircraft, or slows down someone jumping out of a plane with (or without) a parachute.
 
 <figure>
-    <img src="/_projects/Modular_Wind_Tunnel_Design/images/1920x1080_Informative_Diagram.png" alt="Informative Diagram Wind Tunnel During Operation"/>
+    <a href="/_projects/Modular_Wind_Tunnel_Design/images/1920x1080_Informative_Diagram.png" class="image-popup" title="Informative Diagram Wind Tunnel During Operation">
+        <img src="/_projects/Modular_Wind_Tunnel_Design/images/1920x1080_Informative_Diagram.png" alt="Informative Diagram Wind Tunnel During Operation"/>
+    </a>
     <figcaption>What are we looking for when the machine is running?</figcaption>
 </figure>
 It has interchangeable smoke rakes, which let you change how smoke gets distributed in the volume. This means you can either have chaotic turbulent streamlines from the get go, or put in rakes shaped like the objects you actually want to study, like the von Karman rakes I designed, which trace flow going over circular cross sections and produce periodic vortex shedding events.
