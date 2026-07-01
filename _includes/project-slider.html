@@ -1,7 +1,8 @@
 <div class="custom-carousel">
     <div class="carousel-viewport">
         <div class="carousel-track">
-            {% for project in site.projects %}
+            {% for project in site.projects %} {% unless project.hidden %}
+
             <div class="carousel-slide">
                 <a href="{{ project.url | relative_url }}" class="slide-link">
                     <div class="slide-image-container">
@@ -23,7 +24,8 @@
                     </div>
                 </a>
             </div>
-            {% endfor %}
+
+            {% endunless %} {% endfor %}
         </div>
     </div>
 

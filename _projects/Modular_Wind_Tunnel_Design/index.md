@@ -7,6 +7,7 @@ author_profile: true
 header:
   overlay_image: /_projects/Modular_Wind_Tunnel_Design/images/1080x500_Banner.png
   overlay_filter: 0.4
+  teaser: /_projects/Modular_Wind_Tunnel_Design/images/1080x600_Teaser.png # ADD THIS LINE
   actions:
     - label: "Jump straight to Technical Deep Dive"
       url: "/projects/modular-wind-tunnel/deep-dive/"
