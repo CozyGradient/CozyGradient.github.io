@@ -546,6 +546,6 @@ Future student engineering teams looking to advance this platform should priorit
 | Asset Description                 | Target Deployment Component   | File Reference                                                                                    | Status     |
 | :-------------------------------- | :---------------------------- | :------------------------------------------------------------------------------------------------ | :--------- |
 | **Complete Wind Tunnel Assembly** | Full Mechanical CAD Chassis   | <a href="/_projects/Modular_Wind_Tunnel_Design/assets/machine_assembly.step" class="btn btn--info btn--small" download>Download STEP</a> | **Active** |
-| **Iterated Smoke Rakes & Plugs** | Modular Flow Accessories      | <a href="/_projects/Modular_Wind_Tunnel_Design/assets/smoke_rake_components.step" class="btn btn--info btn--small" download>Download STEP</a> | **Active** |
+| **Iterated Smoke Rakes & Plugs** | Modular Flow Accessories      | <a href="/_projects/Modular_Wind_Tunnel_Design/assets/smoke_rake_components.zip" class="btn btn--info btn--small" download>Download STEP</a> | **Active** |
 | **Touchscreen Display Console** | Control Electronics Housing   | <a href="/_projects/Modular_Wind_Tunnel_Design/assets/ui_chassis_box.step" class="btn btn--info btn--small" download>Download STEP</a>   | **Active** |
 | **ESP32 Touch Deck Firmware** | System Source Control Code    | <a href="/_projects/Modular_Wind_Tunnel_Design/assets/esp32_control_firmware.ino" class="btn btn--success btn--small" download>Download Source</a> | **Active** |

@@ -106,9 +106,14 @@ button {
     width: 100%; /* Default to full width on mobile */
 }
 
+/* Center the project card titles */
+.archive__item-title {
+    text-align: center;
+}
+
 /* On desktop, force a spacious 2-column layout instead of 4 */
 @media (min-width: 768px) {
     .entries-grid .grid__item {
-        width: 30%; /* Change this to 100% if you want one massive, full-width card per row */
+        width: 28%; /* Change this to 100% if you want one massive, full-width card per row */
     }
 }
