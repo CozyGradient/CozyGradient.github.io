@@ -72,6 +72,10 @@ author_profile: false
   </div>
   <div class="cv-subtitle"><i class="fas fa-university"></i> Başkent University</div>
   <p><i class="fas fa-certificate" style="color: #28a745;"></i> <strong>EUR-ACE® Accredited Program</strong></p>
+  <ul>
+    <li>Elective Coursework in Aerodynamics, Computational Fluid Dynamics</li>
+    <li>Served as Team Leader of the Energy Society (2023&ndash;2025), directing a cross-functional student team to spearhead the evaluation and CFD simulation of steam turbine components.</li>
+  </ul>
 </div>
 
 ## Experience
@@ -126,6 +130,15 @@ author_profile: false
 ## Additional Education & Certifications
 <div class="cv-item">
   <div class="cv-header">
+    <h3 class="cv-title">UAV-1 Commercial Drone Pilot</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> May 2026</span>
+  </div>
+  <div class="cv-subtitle"><i class="fas fa-plane"></i> Turkish Directorate General of Civil Aviation (SHGM)</div>
+  <p>Certified to operate commercial unmanned aerial vehicles up to 25 kg, with a specialization in geographic mapping and thermal imaging.</p>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
     <h3 class="cv-title">Data Analysis & Machine Learning with Python</h3>
     <span class="cv-date"><i class="fas fa-calendar-alt"></i> 2026 &ndash; Present</span>
   </div>
@@ -142,13 +155,7 @@ author_profile: false
   <p>Applied CFD principles to solve real-world fluid dynamics and heat transfer problems using industry-standard software.</p>
 </div>
 
-<div class="cv-item">
-  <div class="cv-header">
-    <h3 class="cv-title">UAV-1 Commercial Drone Pilot</h3>
-    <span class="cv-date"><i class="fas fa-calendar-alt"></i> May 2026</span>
-  </div>
-  <div class="cv-subtitle">SHGM</div>
-</div>
+
 
 ## Skills & Languages
 
