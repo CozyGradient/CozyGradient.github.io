@@ -10,11 +10,12 @@ author_profile: false
   <div style="display: flex; flex-direction: column; gap: 5px; color: #666;">
     <span><i class="fas fa-envelope"></i> ahmetleventzen@gmail.com</span>
     <span><a href="https://www.linkedin.com/in/aleventz/" style="text-decoration: none; color: #3b5998;"><i class="fab fa-linkedin"></i> linkedin.com/in/aleventz</a></span>
+    <span><i class="fas fa-map-marker-alt"></i> Ankara, TR</span>
   </div>
 </div>
 
 ## Profile
-<p class="lead" style="font-size: 1.15em;">Mechanical Engineering Graduate specializing in CFD and mechanical systems analysis. Dedicated to bridging the gap between computational models and empirical reality through rigorous validation and automated data processing. Experienced in leveraging Python and high-fidelity simulation to solve complex aerodynamic challenges. A detail-oriented problem solver committed to advancing sustainable engineering solutions through technical precision and project management.</p>
+<p class="lead" style="font-size: 1.15em;">Mechanical Engineer specializing in CFD, wind energy technologies, and data-driven design. Proficient in conducting CFD simulations using OpenFOAM and ANSYS Fluent, supported by strong modeling skills in SolidWorks. Experienced in applying numerical methods, fluid-thermal analysis, and simulation-driven optimization to solve complex engineering problems. Actively expanding into data analysis and machine learning, leveraging Python to extract actionable insights from simulation and experimental datasets. Driven to contribute to innovative solutions in renewable energy, sustainable systems, and data-driven engineering design.</p>
 
 <style>
   .cv-item {
@@ -52,6 +53,15 @@ author_profile: false
     margin: 0;
     line-height: 1.6;
   }
+  .cv-item ul {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    padding-left: 1.5em;
+    line-height: 1.6;
+  }
+  .cv-item li {
+    margin-bottom: 0.4em;
+  }
 </style>
 
 ## Education
@@ -61,18 +71,32 @@ author_profile: false
     <span class="cv-date"><i class="fas fa-calendar-alt"></i> 2021 &ndash; 2026</span>
   </div>
   <div class="cv-subtitle"><i class="fas fa-university"></i> Başkent University</div>
-  <p><i class="fas fa-graduation-cap"></i> <strong>GPA:</strong> 2.4 / 4.0</p>
   <p><i class="fas fa-certificate" style="color: #28a745;"></i> <strong>EUR-ACE® Accredited Program</strong></p>
 </div>
 
 ## Experience
 <div class="cv-item">
   <div class="cv-header">
+    <h3 class="cv-title">Language Mentor (Volunteer)</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> 2026 &ndash; Present</span>
+  </div>
+  <div class="cv-subtitle"><i class="fas fa-hands-helping"></i> Balakun</div>
+  <ul>
+    <li>Facilitated weekly English conversation sessions for Ukrainian learners, adapting lesson plans to diverse proficiency levels and learning goals.</li>
+    <li>Integrated into a global volunteer mentor network to support international educational outreach.</li>
+  </ul>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
     <h3 class="cv-title">Office Internship</h3>
     <span class="cv-date"><i class="fas fa-calendar-alt"></i> Jan 2026 &ndash; Feb 2026</span>
   </div>
-  <div class="cv-subtitle"><i class="fas fa-industry"></i> KALELİLER CIVATA SAN VE TİC A.Ş - KALELİLER FASTENERS</div>
-  <p>Supported engineering and administrative operations during a 20-day internship, assisting with technical documentation, product specifications, and production-related reporting while gaining familiarity with industrial fastener standards and manufacturing processes.</p>
+  <div class="cv-subtitle"><i class="fas fa-industry"></i> Kaleliler Fasteners</div>
+  <ul>
+    <li>Streamlined engineering operations by managing technical documentation, updating product specifications, and generating production reports.</li>
+    <li>Ensured compliance with international industrial fastener standards during product specification reviews.</li>
+  </ul>
 </div>
 
 <div class="cv-item">
@@ -81,29 +105,98 @@ author_profile: false
     <span class="cv-date"><i class="fas fa-calendar-alt"></i> Aug 2024 &ndash; Sept 2024</span>
   </div>
   <div class="cv-subtitle"><i class="fas fa-industry"></i> UNF Makina</div>
-  <p>Assisted quality control operations during a 20-day manufacturing internship, supporting inspection activities and observing manufacturing strategies, process flow, and production efficiency practices in an industrial environment.</p>
+  <ul>
+    <li>Executed quality control inspections and analyzed manufacturing workflows to identify process bottlenecks and improve production efficiency.</li>
+    <li>Observed and documented industrial manufacturing strategies and process flow optimizations.</li>
+  </ul>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <h3 class="cv-title">Team Leader, Energy Society</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> 2023 &ndash; 2025</span>
+  </div>
+  <div class="cv-subtitle"><i class="fas fa-users"></i> Başkent University</div>
+  <ul>
+    <li>Spearheaded the 3D design and CFD simulation of steam turbine components to optimize aerodynamic efficiency.</li>
+    <li>Directed a cross-functional student team, managing project timelines, resource allocation, and technical deliverables.</li>
+  </ul>
+</div>
+
+## Additional Education & Certifications
+<div class="cv-item">
+  <div class="cv-header">
+    <h3 class="cv-title">Data Analysis & Machine Learning with Python</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> 2026 &ndash; Present</span>
+  </div>
+  <div class="cv-subtitle">Independent Coursework</div>
+  <p>Building proficiency in pandas, NumPy, and scikit-learn to construct predictive models for engineering datasets.</p>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <h3 class="cv-title">An Introduction to Computational Fluid Dynamics</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> 2025</span>
+  </div>
+  <div class="cv-subtitle">Udemy (Instructor: Sebastian Thomas)</div>
+  <p>Applied CFD principles to solve real-world fluid dynamics and heat transfer problems using industry-standard software.</p>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <h3 class="cv-title">UAV-1 Commercial Drone Pilot</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> May 2026</span>
+  </div>
+  <div class="cv-subtitle">SHGM</div>
 </div>
 
 ## Skills & Languages
 
-<div class="cv-item" style="padding-top: 1em; padding-bottom: 1em;">
-  <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-    <div style="flex: 1; min-width: 200px;">
-      <p><strong>Languages:</strong></p>
-      <div style="display: flex; gap: 15px; margin-top: 10px;">
-        <span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; font-size: 0.9em;"><strong>Turkish:</strong> Native</span>
-        <span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; font-size: 0.9em;"><strong>English:</strong> Native</span>
-        <span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; font-size: 0.9em;"><strong>German:</strong> A2</span>
+<div class="cv-item" style="padding-top: 1.5em; padding-bottom: 1.5em;">
+  <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+    
+    <div style="flex: 1; min-width: 280px;">
+      <h3 class="cv-title" style="font-size: 1.15em; margin-bottom: 1em !important; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5em;">Technical Skills</h3>
+      <div style="display: grid; grid-template-columns: auto 1fr; gap: 12px 15px; align-items: baseline; font-size: 0.95em;">
+        <strong style="white-space: nowrap; color: #333;">Programming:</strong>
+        <span style="color: #444;">Python, C++, Rust</span>
+        
+        <strong style="white-space: nowrap; color: #333;">Data & ML:</strong>
+        <span style="color: #444;">pandas, NumPy, scikit-learn</span>
+        
+        <strong style="white-space: nowrap; color: #333;">CAD:</strong>
+        <span style="color: #444;">SolidWorks, AutoCAD, MATLAB</span>
+        
+        <strong style="white-space: nowrap; color: #333;">Simulation:</strong>
+        <span style="color: #444;">ANSYS Fluent, OpenFOAM</span>
+        
+        <strong style="white-space: nowrap; color: #333;">Core:</strong>
+        <span style="color: #444;">Project Management, Technical Writing</span>
       </div>
     </div>
+
+    <div style="flex: 1; min-width: 250px;">
+      <h3 class="cv-title" style="font-size: 1.15em; margin-bottom: 1em !important; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5em;">Languages</h3>
+      <div style="display: grid; grid-template-columns: auto 1fr; gap: 12px 15px; align-items: center; font-size: 0.95em;">
+        <strong style="white-space: nowrap; color: #333;">Turkish:</strong>
+        <div><span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; color: #444; font-weight: 500;">Native</span></div>
+        
+        <strong style="white-space: nowrap; color: #333;">English:</strong>
+        <div><span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; color: #444; font-weight: 500;">Fluent (IELTS 8.0)</span></div>
+        
+        <strong style="white-space: nowrap; color: #333;">German:</strong>
+        <div><span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; color: #444; font-weight: 500;">A2</span></div>
+      </div>
+    </div>
+
   </div>
 </div>
 
 <div style="text-align: center; margin: 2em 0 3em 0; padding: 2.5em 2em; background: rgba(0,0,0,0.03); border-radius: 8px;">
   <p class="lead" style="margin-top: 0;">Download my complete resume in your preferred format:</p>
   <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-    <a href="/assets/resumes/english.pdf" class="btn btn--primary btn--large" download><i class="fas fa-file-pdf"></i> English</a>
-    <a href="/assets/resumes/turkish.pdf" class="btn btn--info btn--large" download><i class="fas fa-file-pdf"></i> Türkçe</a>
+    <a href="/assets/resumes/cv_english.pdf" class="btn btn--primary btn--large" download><i class="fas fa-file-pdf"></i> English</a>
+    <a href="/assets/resumes/cv_turkish.pdf" class="btn btn--info btn--large" download><i class="fas fa-file-pdf"></i> Türkçe</a>
     <a href="/assets/resumes/europass.pdf" class="btn btn--success btn--large" download><i class="fas fa-file-pdf"></i> Europass</a>
   </div>
 </div>
