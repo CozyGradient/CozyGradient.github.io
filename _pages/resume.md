@@ -7,7 +7,7 @@ author_profile: false
 <div style="text-align: center; margin-bottom: 2em;">
   <img src="/assets/images/bio-photo.png" alt="Ahmet Levent Zengin" style="width: 180px; height: 180px; border-radius: 50%; border: 3px solid #3b5998; margin-bottom: 1em;">
   <h2 style="margin-bottom: 0.2em;">Ahmet Levent Zengin</h2>
-  <div style="display: flex; flex-direction: column; gap: 5px; color: #666;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; color: #666; font-size: 0.95em;">
     <span><i class="fas fa-envelope"></i> ahmetleventzen@gmail.com</span>
     <span><a href="https://www.linkedin.com/in/aleventz/" style="text-decoration: none; color: #3b5998;"><i class="fab fa-linkedin"></i> linkedin.com/in/aleventz</a></span>
     <span><i class="fas fa-map-marker-alt"></i> Ankara, TR</span>
@@ -15,7 +15,7 @@ author_profile: false
 </div>
 
 ## Profile
-<p class="lead" style="font-size: 1.15em;">Mechanical Engineer specializing in CFD, wind energy technologies, and data-driven design. Proficient in conducting CFD simulations using OpenFOAM and ANSYS Fluent, supported by strong modeling skills in SolidWorks. Experienced in applying numerical methods, fluid-thermal analysis, and simulation-driven optimization to solve complex engineering problems. Actively expanding into data analysis and machine learning, leveraging Python to extract actionable insights from simulation and experimental datasets. Driven to contribute to innovative solutions in renewable energy, sustainable systems, and data-driven engineering design.</p>
+<p class="lead" style="font-size: 1.15em;">A mechanical engineer who enjoys solving practical problems and turning ideas into working solutions. Comfortable simulating and testing designs before they're built, and skilled at translating technical findings into clear, actionable recommendations for both engineers and non-engineers. Works well within teams, communicates clearly across departments, and adapts quickly when priorities shift. Currently building further strengths in data analysis and project management to support well-organized, collaborative delivery from concept to completion.</p>
 
 <style>
   .cv-item {
@@ -67,14 +67,13 @@ author_profile: false
 ## Education
 <div class="cv-item">
   <div class="cv-header">
-    <h3 class="cv-title">Bachelor's in Mechanical Engineering</h3>
+    <h3 class="cv-title">B.Sc. in Mechanical Engineering</h3>
     <span class="cv-date"><i class="fas fa-calendar-alt"></i> 2021 &ndash; 2026</span>
   </div>
   <div class="cv-subtitle"><i class="fas fa-university"></i> Başkent University</div>
   <p><i class="fas fa-certificate" style="color: #28a745;"></i> <strong>EUR-ACE® Accredited Program</strong></p>
   <ul>
-    <li>Elective Coursework in Aerodynamics, Computational Fluid Dynamics</li>
-    <li>Served as Team Leader of the Energy Society (2023&ndash;2025), directing a cross-functional student team to spearhead the evaluation and CFD simulation of steam turbine components.</li>
+    <li>Relevant Coursework: Aerodynamics, Computational Fluid Dynamics</li>
   </ul>
 </div>
 
@@ -130,11 +129,11 @@ author_profile: false
 ## Additional Education & Certifications
 <div class="cv-item">
   <div class="cv-header">
-    <h3 class="cv-title">UAV-1 Commercial Drone Pilot</h3>
-    <span class="cv-date"><i class="fas fa-calendar-alt"></i> May 2026</span>
+    <h3 class="cv-title">CAPM Training (Certified Associate in Project Management)</h3>
+    <span class="cv-date"><i class="fas fa-tasks"></i> Active Mentorship</span>
   </div>
-  <div class="cv-subtitle"><i class="fas fa-plane"></i> Turkish Directorate General of Civil Aviation (SHGM)</div>
-  <p>Certified to operate commercial unmanned aerial vehicles up to 25 kg, with a specialization in geographic mapping and thermal imaging.</p>
+  <div class="cv-subtitle"><i class="fas fa-project-diagram"></i> Project Management Training</div>
+  <p>Currently in active mentorship focusing on project management methodologies, project life cycles, and cross-functional team execution.</p>
 </div>
 
 <div class="cv-item">
@@ -142,8 +141,16 @@ author_profile: false
     <h3 class="cv-title">Data Analysis & Machine Learning with Python</h3>
     <span class="cv-date"><i class="fas fa-calendar-alt"></i> 2026 &ndash; Present</span>
   </div>
-  <div class="cv-subtitle">Independent Coursework</div>
+  <div class="cv-subtitle"><i class="fas fa-laptop-code"></i> Independent Coursework</div>
   <p>Building proficiency in pandas, NumPy, and scikit-learn to construct predictive models for engineering datasets.</p>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <h3 class="cv-title">UAV-1 Commercial Drone Pilot</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> Issued May 2026</span>
+  </div>
+  <div class="cv-subtitle"><i class="fas fa-plane"></i> Turkish Directorate General of Civil Aviation (SHGM)</div>
 </div>
 
 <div class="cv-item">
@@ -151,11 +158,9 @@ author_profile: false
     <h3 class="cv-title">An Introduction to Computational Fluid Dynamics</h3>
     <span class="cv-date"><i class="fas fa-calendar-alt"></i> 2025</span>
   </div>
-  <div class="cv-subtitle">Udemy (Instructor: Sebastian Thomas)</div>
+  <div class="cv-subtitle"><i class="fas fa-graduation-cap"></i> Udemy (Instructor: Sebastian Thomas)</div>
   <p>Applied CFD principles to solve real-world fluid dynamics and heat transfer problems using industry-standard software.</p>
 </div>
-
-
 
 ## Skills & Languages
 
@@ -176,20 +181,17 @@ author_profile: false
         
         <strong style="white-space: nowrap; color: #333;">Simulation:</strong>
         <span style="color: #444;">ANSYS Fluent, OpenFOAM</span>
-        
-        <strong style="white-space: nowrap; color: #333;">Core:</strong>
-        <span style="color: #444;">Project Management, Technical Writing</span>
       </div>
     </div>
 
     <div style="flex: 1; min-width: 250px;">
       <h3 class="cv-title" style="font-size: 1.15em; margin-bottom: 1em !important; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5em;">Languages</h3>
       <div style="display: grid; grid-template-columns: auto 1fr; gap: 12px 15px; align-items: center; font-size: 0.95em;">
-        <strong style="white-space: nowrap; color: #333;">Turkish:</strong>
-        <div><span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; color: #444; font-weight: 500;">Native</span></div>
-        
         <strong style="white-space: nowrap; color: #333;">English:</strong>
         <div><span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; color: #444; font-weight: 500;">Fluent (IELTS 8.0)</span></div>
+        
+        <strong style="white-space: nowrap; color: #333;">Turkish:</strong>
+        <div><span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; color: #444; font-weight: 500;">Native</span></div>
         
         <strong style="white-space: nowrap; color: #333;">German:</strong>
         <div><span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; color: #444; font-weight: 500;">A2</span></div>
@@ -206,4 +208,8 @@ author_profile: false
     <a href="/assets/resumes/cv_turkish.pdf" class="btn btn--info btn--large" download><i class="fas fa-file-pdf"></i> Türkçe</a>
     <a href="/assets/resumes/europass.pdf" class="btn btn--success btn--large" download><i class="fas fa-file-pdf"></i> Europass</a>
   </div>
+</div>
+
+<div style="text-align: center; margin-top: 2em; margin-bottom: 1em; color: #777; font-size: 0.85em; border-top: 1px solid #eee; padding-top: 1.5em;">
+  <p><i class="fas fa-sync-alt"></i> <em>Last updated: July 2026</em></p>
 </div>
