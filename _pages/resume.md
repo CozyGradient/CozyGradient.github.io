@@ -9,9 +9,12 @@ author_profile: false
   <h2 style="margin-bottom: 0.2em;">Ahmet Levent Zengin</h2>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; color: #666; font-size: 0.95em;">
     <span><i class="fas fa-envelope"></i> ahmetleventzen@gmail.com</span>
+    <span><i class="fas fa-phone"></i> +90 544 836 04 20</span>
     <span><a href="https://www.linkedin.com/in/aleventz/" style="text-decoration: none; color: #3b5998;"><i class="fab fa-linkedin"></i> linkedin.com/in/aleventz</a></span>
+    <span><a href="https://cozygradient.github.io" style="text-decoration: none; color: #3b5998;"><i class="fas fa-globe"></i> cozygradient.github.io</a></span>
     <span><i class="fas fa-map-marker-alt"></i> Ankara, TR</span>
   </div>
+  <p style="color: #3b5998; font-weight: 600; margin-top: 0.6em; margin-bottom: 0;">Mechanical Engineer specializing in CFD, wind energy technologies, and data-driven design.</p>
 </div>
 
 ## Profile
@@ -73,7 +76,7 @@ author_profile: false
   <div class="cv-subtitle"><i class="fas fa-university"></i> Başkent University</div>
   <p><i class="fas fa-certificate" style="color: #28a745;"></i> <strong>EUR-ACE® Accredited Program</strong></p>
   <ul>
-    <li>Relevant Coursework: Aerodynamics, Computational Fluid Dynamics</li>
+    <li>Relevant Coursework: Aerodynamics, Computational Fluid Dynamics, Thermodynamics, Strength of Materials</li>
   </ul>
 </div>
 
@@ -126,11 +129,83 @@ author_profile: false
   </ul>
 </div>
 
+## Publications
+<div class="cv-item">
+  <div class="cv-header">
+    <h3 class="cv-title">A Parametric Investigation of the Unloading Behaviour of Seats during Rear Impact</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> Oct 2026</span>
+  </div>
+  <div class="cv-subtitle"><i class="fas fa-book"></i> Transport Means 2026, Kaunas, Lithuania</div>
+  <p>S. Himmetoglu, A. L. Zengin et al.</p>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <h3 class="cv-title">The Effect of Flow Separation Angles on Compressor Pressure in Axial Compressor Blades</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> May 2025</span>
+  </div>
+  <div class="cv-subtitle"><i class="fas fa-book"></i> 9th International Students Science Congress, Manisa, Turkey</div>
+  <p>A. Koçer, E. Öztürk, A. L. Zengin</p>
+</div>
+
+## Projects
+<div class="cv-item">
+  <div class="cv-header">
+    <h3 class="cv-title">BERTopic Topic Modelling of Group Chats</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> Aug 2026</span>
+  </div>
+  <ul>
+    <li>Applied transformer-based topic modelling (BERTopic) to a group-chat corpus to surface recurring themes and conversation dynamics.</li>
+    <li>Built an end-to-end Jupyter Notebook pipeline covering text preprocessing, embedding, and topic visualisation.</li>
+  </ul>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <h3 class="cv-title">CozyGradient Portfolio Website</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> Jul 2026</span>
+  </div>
+  <ul>
+    <li>Designed and built a personal portfolio site from scratch to showcase projects, CFD visuals, and open-source work (cozygradient.github.io).</li>
+  </ul>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <h3 class="cv-title">Small-Scale Open-Source Wind Tunnel</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> Oct 2025 &ndash; Jun 2026</span>
+  </div>
+  <ul>
+    <li>Designed and built a small-scale wind tunnel for low-speed aerodynamic testing and flow visualisation.</li>
+    <li>Documented the full workflow from CAD modelling through fabrication under an open-source licence.</li>
+  </ul>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <h3 class="cv-title">Factory Floor Plan Optimisation & 3D Rendering</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> Feb 2026</span>
+  </div>
+  <ul>
+    <li>Analysed production facility layouts and produced 3D renderings to evaluate workflow, space utilisation, and process flow.</li>
+  </ul>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <h3 class="cv-title">Analysis of Axial Compressors with CFD</h3>
+    <span class="cv-date"><i class="fas fa-calendar-alt"></i> May 2024</span>
+  </div>
+  <ul>
+    <li>Simulated flow through axial compressor blade geometries to assess pressure rise, flow separation, and blade aerodynamic performance.</li>
+  </ul>
+</div>
+
 ## Additional Education & Certifications
 <div class="cv-item">
   <div class="cv-header">
     <h3 class="cv-title">CAPM Training (Certified Associate in Project Management)</h3>
-    <span class="cv-date"><i class="fas fa-tasks"></i> Active Mentorship</span>
+    <span class="cv-date"><i class="fas fa-tasks"></i> In Progress</span>
   </div>
   <div class="cv-subtitle"><i class="fas fa-project-diagram"></i> Project Management Training</div>
   <p>Currently in active mentorship focusing on project management methodologies, project life cycles, and cross-functional team execution.</p>
@@ -201,6 +276,32 @@ author_profile: false
   </div>
 </div>
 
+## Interests & Availability
+<div class="cv-item" style="padding-top: 1.5em; padding-bottom: 1.5em;">
+  <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+
+    <div style="flex: 1; min-width: 250px;">
+      <h3 class="cv-title" style="font-size: 1.15em; margin-bottom: 1em !important; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5em;">Interests</h3>
+      <ul style="margin: 0; padding-left: 1.5em; line-height: 1.6;">
+        <li>Fluid dynamics visualisation</li>
+        <li>UAV photography &amp; flight planning</li>
+        <li>Open-source tooling</li>
+        <li>Industrial Design</li>
+        <li>Film Making</li>
+      </ul>
+    </div>
+
+    <div style="flex: 1; min-width: 250px;">
+      <h3 class="cv-title" style="font-size: 1.15em; margin-bottom: 1em !important; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5em;">Availability</h3>
+      <ul style="margin: 0; padding-left: 1.5em; line-height: 1.6;">
+        <li>Open to relocation</li>
+        <li>Immediate start</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
 <div style="text-align: center; margin: 2em 0 3em 0; padding: 2.5em 2em; background: rgba(0,0,0,0.03); border-radius: 8px;">
   <p class="lead" style="margin-top: 0;">Download my complete resume in your preferred format:</p>
   <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
@@ -211,5 +312,5 @@ author_profile: false
 </div>
 
 <div style="text-align: center; margin-top: 2em; margin-bottom: 1em; color: #777; font-size: 0.85em; border-top: 1px solid #eee; padding-top: 1.5em;">
-  <p><i class="fas fa-sync-alt"></i> <em>Last updated: July 2026</em></p>
+  <p><i class="fas fa-sync-alt"></i> <em>Last updated: September 2026</em></p>
 </div>
