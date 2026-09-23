@@ -26,16 +26,16 @@ So I've been waking up later than usual, as I normalize to life outside of acade
 
 ## Drafting the Ideas
 
+<img src="/assets/images/posts/alarm-clock/DesignSketch.jpg" alt="Early sketches of the alarm clock's industrial design" style="display:block;width:100%;height:auto;border-radius:8px;margin:1em 0;" />
+
 I've been getting into industrial design lately mainly through the works of legendary designer Dieter Rams, I've been studying some of his work with Braun. Theres just something so mesmerizing about the sleek utilitarian minimalism of his work. So early ideas started off considering exactly which features the alarm clock needed and how the interface should be set up in such a way to interact with those features. I sketched out some early designs and decided to work on the hardware and initial software implementation.
 
 ## The Hardware & Software
 
+<img src="/assets/images/posts/alarm-clock/prewiring.jpg" alt="ESP32 dev board wired on a breadboard before assembly" style="display:block;width:100%;height:auto;border-radius:8px;margin:1em 0;" />
+
 Due to the nature of the project being a device that needs up to date information on world events, IoT was a non negotiable framework to go by. I decided to choose a simple ESP32 dev board for it's ubiquity and heavy support (and since I already had one on hand). I wrote up a simple script to display a clock on screen and this is by no means even an initial draft of the software going forward but it's a good starting point. The device will eventually make API calls to various services like my calendar provider to give me a briefing of what I have on my plate for the day, I'm also gonna add a weather forecast and maybe some extra spice like whether or not the Hormuz Strait is open (not that I have a stake in brent crude!).
 
+<img src="/assets/images/posts/alarm-clock/postwiring.jpg" alt="Breadboard layout with control and alarm buttons wired in" style="display:block;width:100%;height:auto;border-radius:8px;margin:1em 0;" />
+
 Here I've Set up a basic breadboard layout with the buttons I'm considering adding to the finished design. I decided it would be safe to add 3 buttons for the controls and 1 button for the alarm. Powered by 5v to reduce complexity with step down converters.
-
-## Future Ideas and   Improvements
-
-<!--
-OPTIONAL: closing thoughts / future improvements
--->

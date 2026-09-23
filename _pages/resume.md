@@ -4,83 +4,177 @@ title: "Resume"
 permalink: /resume/
 author_profile: false
 ---
-<div style="text-align: center; margin-bottom: 2em;">
-  <img src="/assets/images/bio-photo.png" alt="Ahmet Levent Zengin" style="width: 180px; height: 180px; border-radius: 50%; border: 3px solid #3b5998; margin-bottom: 1em;">
-  <h2 style="margin-bottom: 0.2em;">Ahmet Levent Zengin</h2>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; color: #666; font-size: 0.95em;">
+
+<div class="cv-profile-header">
+  <img src="/assets/images/bio-photo.png" alt="Ahmet Levent Zengin" class="cv-photo">
+  <h2 class="cv-name">Ahmet Levent Zengin</h2>
+  <div class="cv-contact">
     <span><i class="fas fa-envelope"></i> ahmetleventzen@gmail.com</span>
     <span><i class="fas fa-phone"></i> +90 544 836 04 20</span>
-    <span><a href="https://www.linkedin.com/in/aleventz/" style="text-decoration: none; color: #3b5998;"><i class="fab fa-linkedin"></i> linkedin.com/in/aleventz</a></span>
-    <span><a href="https://cozygradient.github.io" style="text-decoration: none; color: #3b5998;"><i class="fas fa-globe"></i> cozygradient.github.io</a></span>
+    <span><a href="https://www.linkedin.com/in/aleventz/"><i class="fab fa-linkedin"></i> linkedin.com/in/aleventz</a></span>
     <span><i class="fas fa-map-marker-alt"></i> Ankara, TR</span>
   </div>
-  <p style="color: #3b5998; font-weight: 600; margin-top: 0.6em; margin-bottom: 0;">Mechanical Engineer specializing in CFD, wind energy technologies, and data-driven design.</p>
+  <p class="cv-tagline">Mechanical Engineer specializing in CFD, wind energy technologies, and data-driven design.</p>
 </div>
 
-## Profile
-<p class="lead" style="font-size: 1.15em;">A mechanical engineer who enjoys solving practical problems and turning ideas into working solutions. Comfortable simulating and testing designs before they're built, and skilled at translating technical findings into clear, actionable recommendations for both engineers and non-engineers. Works well within teams, communicates clearly across departments, and adapts quickly when priorities shift. Currently building further strengths in data analysis and project management to support well-organized, collaborative delivery from concept to completion.</p>
-
 <style>
-  .cv-item {
-    margin-bottom: 2em;
-    padding: 1.5em;
-    border-radius: 6px;
-    background: var(--background-color, #fff);
-    border-left: 4px solid #3b5998;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  }
-  .cv-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
-    margin-bottom: 0.25em;
-  }
-  .cv-title {
-    margin: 0 !important;
-    font-size: 1.25em;
-    font-weight: 700;
-  }
-  .cv-date {
-    color: #888;
-    font-weight: 600;
-    font-size: 0.9em;
-  }
-  .cv-subtitle {
-    font-weight: 600;
-    color: #555;
-    margin-bottom: 1em;
-    font-size: 1.05em;
-  }
-  .cv-item p {
-    margin: 0;
-    line-height: 1.6;
-  }
-  .cv-item ul {
-    margin-top: 0.5em;
-    margin-bottom: 0;
-    padding-left: 1.5em;
-    line-height: 1.6;
-  }
-  .cv-item li {
-    margin-bottom: 0.4em;
-  }
+/* ---------- Section headings ---------- */
+.cv-section-title {
+  font-size: 1.3em;
+  font-weight: 700;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid #e5e5e5;
+  margin: 2em 0 1em !important;
+}
+
+/* ---------- Profile header ---------- */
+.cv-profile-header { text-align: center; margin-bottom: 2.5em; }
+.cv-photo {
+  width: 170px; height: 170px;
+  border-radius: 50%;
+  border: 3px solid #3b5998;
+  margin-bottom: 1em;
+  object-fit: cover;
+}
+.cv-name { margin: 0 0 0.3em; font-size: 1.6em; }
+.cv-contact {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 6px 18px;
+  color: #666; font-size: 0.92em;
+  margin-bottom: 0.8em;
+}
+.cv-contact a { color: #3b5998; text-decoration: none; }
+.cv-contact a:hover { text-decoration: underline; }
+.cv-tagline {
+  font-weight: 600; color: #444;
+  margin: 0 auto; max-width: 560px; line-height: 1.5;
+}
+
+/* ---------- Item cards ---------- */
+.cv-item {
+  margin-bottom: 1.5em;
+  padding: 1.4em 1.6em;
+  border-radius: 8px;
+  background: var(--background-color, #fff);
+  border-left: 4px solid #3b5998;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  text-align: left; /* kill inherited justify */
+}
+.cv-header {
+  display: flex; justify-content: space-between; align-items: baseline;
+  flex-wrap: wrap; gap: 0.2em 1em;
+  margin-bottom: 0.25em;
+}
+.cv-title { margin: 0 !important; font-size: 1.15em; font-weight: 700; line-height: 1.3; }
+.cv-date {
+  color: #888; font-weight: 600; font-size: 0.85em;
+  white-space: nowrap; flex-shrink: 0;
+}
+.cv-subtitle {
+  font-weight: 600; color: #555;
+  margin-bottom: 0.8em; font-size: 1em;
+}
+.cv-subtitle i { color: #3b5998; margin-right: 4px; }
+
+.cv-item p { margin: 0 0 0.4em; line-height: 1.6; }
+.cv-item ul { margin: 0.4em 0 0; padding-left: 1.4em; line-height: 1.6; }
+.cv-item li { margin-bottom: 0.35em; }
+
+/* ---------- Accreditation badges ---------- */
+.cv-badges {
+  list-style: none; padding: 0; margin: 0.6em 0 !important;
+}
+.cv-badges li {
+  display: flex; align-items: baseline;
+  gap: 0.6em;
+  margin-bottom: 0.4em;
+  line-height: 1.5;
+}
+.cv-badges .fa-certificate { color: #28a745; flex-shrink: 0; }
+.cv-badges strong { color: inherit; }
+
+/* ---------- Two-column blocks (Skills / Interests) ---------- */
+.cv-two-col { display: flex; gap: 2.5em; flex-wrap: wrap; }
+.cv-col { flex: 1 1 280px; min-width: 0; }
+.cv-col-title {
+  font-size: 1.05em; font-weight: 700;
+  margin: 0 0 0.9em !important;
+  padding-bottom: 0.45em;
+  border-bottom: 2px solid #f0f0f0;
+}
+.cv-kv {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.7em 1.2em;
+  align-items: baseline;
+  font-size: 0.95em;
+}
+.cv-kv strong { white-space: nowrap; color: #333; }
+.cv-kv span { color: #444; }
+.cv-pill {
+  display: inline-block;
+  background: #f0f0f0; color: #444; font-weight: 500;
+  padding: 2px 10px; border-radius: 12px;
+  font-size: 0.9em;
+}
+
+/* ---------- Download section ---------- */
+.cv-download {
+  text-align: center;
+  margin: 2.5em 0;
+  padding: 2.2em 1.5em;
+  background: rgba(0,0,0,0.03);
+  border-radius: 8px;
+}
+.cv-download p { margin: 0 0 1.2em; }
+.cv-download-btns {
+  display: flex; justify-content: center;
+  gap: 12px; flex-wrap: wrap;
+}
+
+/* ---------- Footer ---------- */
+.cv-footer {
+  text-align: center;
+  margin: 2em 0 1em;
+  color: #777; font-size: 0.85em;
+  border-top: 1px solid #eee;
+  padding-top: 1.2em;
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 600px) {
+  .cv-item { padding: 1.1em 1.1em; }
+  .cv-header { flex-direction: column; gap: 0; }
+  .cv-date { margin-top: 0.15em; }
+  .cv-title { font-size: 1.05em; }
+  .cv-section-title { font-size: 1.15em; }
+  .cv-contact { gap: 4px 12px; font-size: 0.85em; }
+  .cv-kv { grid-template-columns: 1fr; gap: 0.2em 0; }
+  .cv-kv strong { margin-top: 0.5em; }
+}
 </style>
 
+## Profile
+
+<p class="lead">A mechanical engineer who enjoys solving practical problems and turning ideas into working solutions. Comfortable simulating and testing designs before they're built, and skilled at translating technical findings into clear, actionable recommendations for both engineers and non-engineers. Works well within teams, communicates clearly across departments, and adapts quickly when priorities shift. Currently building further strengths in data analysis and project management to support well-organized, collaborative delivery from concept to completion.</p>
+
 ## Education
+
 <div class="cv-item">
   <div class="cv-header">
     <h3 class="cv-title">B.Sc. in Mechanical Engineering</h3>
     <span class="cv-date"><i class="fas fa-calendar-alt"></i> 2021 &ndash; 2026</span>
   </div>
   <div class="cv-subtitle"><i class="fas fa-university"></i> Başkent University</div>
-  <p><i class="fas fa-certificate" style="color: #28a745;"></i> <strong>EUR-ACE® Accredited Program</strong></p>
-  <ul>
-    <li>Relevant Coursework: Aerodynamics, Computational Fluid Dynamics, Thermodynamics, Strength of Materials</li>
+  <ul class="cv-badges">
+    <li><i class="fas fa-certificate"></i> <strong>EUR-ACE® Accredited Program</strong></li>
+    <li><i class="fas fa-certificate"></i> <strong>German Degree Equivalence:</strong> Recognized at Bachelor's level by ZAB (KMK Reg. No. LN2026/75331-1)</li>
   </ul>
+  <p><strong>Relevant Coursework:</strong> Aerodynamics, Computational Fluid Dynamics, Thermodynamics, Strength of Materials</p>
 </div>
 
 ## Experience
+
 <div class="cv-item">
   <div class="cv-header">
     <h3 class="cv-title">Language Mentor (Volunteer)</h3>
@@ -130,6 +224,7 @@ author_profile: false
 </div>
 
 ## Publications
+
 <div class="cv-item">
   <div class="cv-header">
     <h3 class="cv-title">A Parametric Investigation of the Unloading Behaviour of Seats during Rear Impact</h3>
@@ -149,6 +244,7 @@ author_profile: false
 </div>
 
 ## Projects
+
 <div class="cv-item">
   <div class="cv-header">
     <h3 class="cv-title">BERTopic Topic Modelling of Group Chats</h3>
@@ -202,6 +298,7 @@ author_profile: false
 </div>
 
 ## Additional Education & Certifications
+
 <div class="cv-item">
   <div class="cv-header">
     <h3 class="cv-title">CAPM Training (Certified Associate in Project Management)</h3>
@@ -239,50 +336,42 @@ author_profile: false
 
 ## Skills & Languages
 
-<div class="cv-item" style="padding-top: 1.5em; padding-bottom: 1.5em;">
-  <div style="display: flex; gap: 40px; flex-wrap: wrap;">
-    
-    <div style="flex: 1; min-width: 280px;">
-      <h3 class="cv-title" style="font-size: 1.15em; margin-bottom: 1em !important; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5em;">Technical Skills</h3>
-      <div style="display: grid; grid-template-columns: auto 1fr; gap: 12px 15px; align-items: baseline; font-size: 0.95em;">
-        <strong style="white-space: nowrap; color: #333;">Programming:</strong>
-        <span style="color: #444;">Python, C++, Rust</span>
-        
-        <strong style="white-space: nowrap; color: #333;">Data & ML:</strong>
-        <span style="color: #444;">pandas, NumPy, scikit-learn</span>
-        
-        <strong style="white-space: nowrap; color: #333;">CAD:</strong>
-        <span style="color: #444;">SolidWorks, AutoCAD, MATLAB</span>
-        
-        <strong style="white-space: nowrap; color: #333;">Simulation:</strong>
-        <span style="color: #444;">ANSYS Fluent, OpenFOAM</span>
+<div class="cv-item">
+  <div class="cv-two-col">
+    <div class="cv-col">
+      <h3 class="cv-col-title">Technical Skills</h3>
+      <div class="cv-kv">
+        <strong>Programming:</strong>
+        <span>Python, C++, Rust</span>
+        <strong>Data & ML:</strong>
+        <span>pandas, NumPy, scikit-learn</span>
+        <strong>CAD:</strong>
+        <span>SolidWorks, AutoCAD, MATLAB</span>
+        <strong>Simulation:</strong>
+        <span>ANSYS Fluent, OpenFOAM</span>
       </div>
     </div>
-
-    <div style="flex: 1; min-width: 250px;">
-      <h3 class="cv-title" style="font-size: 1.15em; margin-bottom: 1em !important; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5em;">Languages</h3>
-      <div style="display: grid; grid-template-columns: auto 1fr; gap: 12px 15px; align-items: center; font-size: 0.95em;">
-        <strong style="white-space: nowrap; color: #333;">English:</strong>
-        <div><span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; color: #444; font-weight: 500;">Fluent (IELTS 8.0)</span></div>
-        
-        <strong style="white-space: nowrap; color: #333;">Turkish:</strong>
-        <div><span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; color: #444; font-weight: 500;">Native</span></div>
-        
-        <strong style="white-space: nowrap; color: #333;">German:</strong>
-        <div><span style="background: #f0f0f0; padding: 4px 10px; border-radius: 4px; color: #444; font-weight: 500;">A2</span></div>
+    <div class="cv-col">
+      <h3 class="cv-col-title">Languages</h3>
+      <div class="cv-kv">
+        <strong>English:</strong>
+        <span><span class="cv-pill">Fluent</span> <span class="cv-pill">C1 / IELTS 8.0</span></span>
+        <strong>Turkish:</strong>
+        <span><span class="cv-pill">Native</span></span>
+        <strong>German:</strong>
+        <span><span class="cv-pill">A2</span></span>
       </div>
     </div>
-
   </div>
 </div>
 
 ## Interests & Availability
-<div class="cv-item" style="padding-top: 1.5em; padding-bottom: 1.5em;">
-  <div style="display: flex; gap: 40px; flex-wrap: wrap;">
 
-    <div style="flex: 1; min-width: 250px;">
-      <h3 class="cv-title" style="font-size: 1.15em; margin-bottom: 1em !important; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5em;">Interests</h3>
-      <ul style="margin: 0; padding-left: 1.5em; line-height: 1.6;">
+<div class="cv-item">
+  <div class="cv-two-col">
+    <div class="cv-col">
+      <h3 class="cv-col-title">Interests</h3>
+      <ul style="margin: 0; padding-left: 1.4em; line-height: 1.7;">
         <li>Fluid dynamics visualisation</li>
         <li>UAV photography &amp; flight planning</li>
         <li>Open-source tooling</li>
@@ -290,27 +379,25 @@ author_profile: false
         <li>Film Making</li>
       </ul>
     </div>
-
-    <div style="flex: 1; min-width: 250px;">
-      <h3 class="cv-title" style="font-size: 1.15em; margin-bottom: 1em !important; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5em;">Availability</h3>
-      <ul style="margin: 0; padding-left: 1.5em; line-height: 1.6;">
+    <div class="cv-col">
+      <h3 class="cv-col-title">Availability</h3>
+      <ul style="margin: 0; padding-left: 1.4em; line-height: 1.7;">
         <li>Open to relocation</li>
         <li>Immediate start</li>
       </ul>
     </div>
-
   </div>
 </div>
 
-<div style="text-align: center; margin: 2em 0 3em 0; padding: 2.5em 2em; background: rgba(0,0,0,0.03); border-radius: 8px;">
-  <p class="lead" style="margin-top: 0;">Download my complete resume in your preferred format:</p>
-  <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+<div class="cv-download">
+  <p>Download my complete resume in your preferred format:</p>
+  <div class="cv-download-btns">
     <a href="/assets/resumes/cv_english.pdf" class="btn btn--primary btn--large" download><i class="fas fa-file-pdf"></i> English</a>
     <a href="/assets/resumes/cv_turkish.pdf" class="btn btn--info btn--large" download><i class="fas fa-file-pdf"></i> Türkçe</a>
     <a href="/assets/resumes/europass.pdf" class="btn btn--success btn--large" download><i class="fas fa-file-pdf"></i> Europass</a>
   </div>
 </div>
 
-<div style="text-align: center; margin-top: 2em; margin-bottom: 1em; color: #777; font-size: 0.85em; border-top: 1px solid #eee; padding-top: 1.5em;">
+<div class="cv-footer">
   <p><i class="fas fa-sync-alt"></i> <em>Last updated: September 2026</em></p>
 </div>
