@@ -101,19 +101,56 @@ button {
     margin-bottom: 0; /* Cleans up accidental trailing spaces inside the card */
 }
 
-/* Override the theme's default narrow grid to make project cards wider */
-.entries-grid .grid__item {
-    width: 100%; /* Default to full width on mobile */
+/* Blog + project cards: 2 per row on desktop, 1 on mobile */
+.blog-grid,
+.entries-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    .grid__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .grid__item:nth-child(n) {
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+
+    .archive__item {
+        height: 100%;
+        margin-bottom: 0;
+        padding: 20px;
+    }
+
+    .archive__item-title {
+        display: block;
+        -webkit-line-clamp: unset;
+        overflow: visible;
+        text-overflow: clip;
+        white-space: normal;
+        font-size: 1.15rem;
+        text-align: center;
+    }
+
+    .archive__item-excerpt {
+        display: block;
+        text-align: left;
+        hyphens: none;
+    }
+
+    .page__meta {
+        white-space: nowrap;
+    }
 }
 
-/* Center the project card titles */
-.archive__item-title {
-    text-align: center;
-}
-
-/* On desktop, force a spacious 2-column layout instead of 4 */
 @media (min-width: 768px) {
-    .entries-grid .grid__item {
-        width: 28%; /* Change this to 100% if you want one massive, full-width card per row */
+    .blog-grid .grid__item:nth-child(n),
+    .entries-grid .grid__item:nth-child(n) {
+        width: calc(50% - 12px);
     }
 }
